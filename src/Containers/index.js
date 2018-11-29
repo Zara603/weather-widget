@@ -40,7 +40,7 @@ class WeatherWidget extends React.Component {
         console.log(response);
         this.setState({
           temp: response.main.temp,
-          windSpeed: response.main.wind.speed
+          windSpeed: response.wind.speed
         });
       });
   };
